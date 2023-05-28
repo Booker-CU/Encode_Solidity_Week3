@@ -1,0 +1,41 @@
+Week3/Week4 Weekend Project
+
+///////
+
+
+Polygon Mumbia Deployed
+TokenizedBallot_W3_Mumbia_TokenContract
+
+The tokenContract address is 0x0936Be36ACd102CC7AF17Df760ca390f69891a17
+and the transaction hash is 0x798558020da3d3b8ab49c174f1fe97bfbfcc1b76405a097fe3a0149330fe8f60
+
+//////////
+
+TokenizedBallot_W3_Mumbia_Mint_Delegate
+
+TokenContract address is 0x0936Be36ACd102CC7AF17Df760ca390f69891a17
+
+Account 1 0x16dc04A9133f393567C634C2F145870b913233F9 has minted tokens,
+and the receipt hash is  0x2a4406e4b3587fb502378eb06266154ed421072ce373ceddbaf120f2fe3c556c
+
+Account1 has a balance of 10.0
+After delegating votes account 0x16dc04A9133f393567C634C2F145870b913233F9 has 10.0
+
+/////////
+
+Deploying TokenizedBallot contract
+
+Proposals:
+Proposal N. 1: ProposalA
+Proposal N. 2: ProposalB
+Proposal N. 3: ProposalC
+The address for the Token Ballot contract is 0xfbFa68808D69E306d4AAF8F8647EfDA45F815C7F
+and the transaction receipt is 0x169fed6ffdfeb02049863531ab8c7e4000bbbad84960763d3dd1b187d6912470
+
+
+Block Number 36159013
+
+Past votes for Account 1 10.0
+Voting power for Account 1 is 10.0
+Voting power spent for Account 1 is 1.0
+The winning proposal so far is 2
