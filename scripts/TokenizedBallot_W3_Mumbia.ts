@@ -9,8 +9,8 @@ async function main() {
 
     //Generating Signer
 
-    const wallet = new ethers.Wallet(process.env.PRIVATE_KEY ?? "");
-    const provider = new ethers.providers.AlchemyProvider("maticmum",process.env.ALCHEMY_API_KEY)
+    const wallet = new ethers.Wallet(process.env.YOUR_PRIVATE_KEY ?? "");
+    const provider = new ethers.providers.AlchemyProvider("maticmum",process.env.YOUR_ALCHEMY_API_KEY)
 
     const signer = wallet.connect(provider)
 
@@ -23,7 +23,6 @@ async function main() {
     const tokenContract = tokenContractFactory.attach(tokenContractAddress)
     console.log(`\nTokenContract address is ${tokenContract.address} \n`)
 
-    //Account 3 address 0xA181786c73F49A25EE8cD40b9b9Cd31b4cAe711B
 
     //Creating TokenizedBallot
     const tokenizedBallotFactory = new TokenizedBallot__factory(signer)
