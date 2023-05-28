@@ -10,8 +10,8 @@ async function main() {
 
     //Generating Signer
 
-    const wallet = new ethers.Wallet(process.env.PRIVATE_KEY ?? "");
-    const provider = new ethers.providers.AlchemyProvider("maticmum",process.env.ALCHEMY_API_KEY)
+    const wallet = new ethers.Wallet(process.env.YOUR_PRIVATE_KEY ?? "");
+    const provider = new ethers.providers.AlchemyProvider("maticmum",process.env.YOUR_ALCHEMY_API_KEY)
 
     const signer = wallet.connect(provider)
 
